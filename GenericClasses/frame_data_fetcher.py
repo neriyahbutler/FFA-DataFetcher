@@ -21,7 +21,6 @@ class FrameDataFetcher(ABC):
 
     @abstractmethod
     def fetch_frame_data(self,
-                         game_name: str,
                          character_name: str) -> json:
         """
         An abstract method dedicated for fetching frame data
